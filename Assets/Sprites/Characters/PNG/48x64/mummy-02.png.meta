@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: ffc797c568d55856a90f770f7d6c828e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4276423155993316094
+    second: mummy-02_0
+  - first:
+      213: -114910859737136551
+    second: mummy-02_1
+  - first:
+      213: 7069619884438647473
+    second: mummy-02_2
+  - first:
+      213: -7709571408697089311
+    second: mummy-02_3
+  - first:
+      213: 7679184586583435386
+    second: mummy-02_4
+  - first:
+      213: 2855317184527310348
+    second: mummy-02_5
+  - first:
+      213: -3080995104336500148
+    second: mummy-02_6
+  - first:
+      213: -2451157561893851801
+    second: mummy-02_7
+  - first:
+      213: -1185740240751763142
+    second: mummy-02_8
+  - first:
+      213: -5118824335782816069
+    second: mummy-02_9
+  - first:
+      213: -685064973545348916
+    second: mummy-02_10
+  - first:
+      213: 5148746090117928298
+    second: mummy-02_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mummy-02_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 193
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa8c32f338e85b30800000000000000
+      internalID: 4276423155993316094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 196
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95288809e21c76ef0800000000000000
+      internalID: -114910859737136551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 193
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2f00514d55c1260800000000000000
+      internalID: 7069619884438647473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 129
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e22a1e96a9120590800000000000000
+      internalID: -7709571408697089311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 131
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78e5f702b1f19a60800000000000000
+      internalID: 7679184586583435386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 129
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e91d8e9df10a720800000000000000
+      internalID: 2855317184527310348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 65
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a2e43c64b1e35d0800000000000000
+      internalID: -3080995104336500148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 67
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dedca2f2dbbfdd0800000000000000
+      internalID: -2451157561893851801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 64
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31ea1a88876b8fe0800000000000000
+      internalID: -1185740240751763142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb65a06236846f8b0800000000000000
+      internalID: -5118824335782816069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc064c349092e76f0800000000000000
+      internalID: -685064973545348916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65192c2a45047740800000000000000
+      internalID: 5148746090117928298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -63, y: -77}
+      - {x: -63, y: -128}
+      - {x: -38, y: -128}
+      - {x: -38, y: -81}
+      - {x: -39, y: -77}
+    - - {x: 36, y: -77}
+      - {x: 33, y: -78}
+      - {x: 33, y: -124}
+      - {x: 39, y: -128}
+      - {x: 59, y: -128}
+      - {x: 59, y: -107}
+      - {x: 57, y: -83}
+      - {x: 53, y: -78}
+      - {x: 50, y: -77}
+    - - {x: 5, y: -76}
+      - {x: 2, y: -75}
+      - {x: -12, y: -75}
+      - {x: -15, y: -76}
+      - {x: -15, y: -111}
+      - {x: -12, y: -127}
+      - {x: 5, y: -127}
+      - {x: 8, y: -117}
+      - {x: 8, y: -81}
+    - - {x: -41, y: -13}
+      - {x: -58, y: -13}
+      - {x: -61, y: -16}
+      - {x: -61, y: -65}
+      - {x: -39, y: -65}
+      - {x: -38, y: -63}
+      - {x: -35, y: -39}
+      - {x: -35, y: -15}
+    - - {x: 42, y: -13}
+      - {x: 35, y: -16}
+      - {x: 35, y: -42}
+      - {x: 40, y: -65}
+      - {x: 55, y: -65}
+      - {x: 61, y: -41}
+      - {x: 61, y: -17}
+      - {x: 58, y: -13}
+    - - {x: -10, y: -11}
+      - {x: -13, y: -15}
+      - {x: -13, y: -44}
+      - {x: -9, y: -63}
+      - {x: 9, y: -63}
+      - {x: 13, y: -50}
+      - {x: 13, y: -14}
+      - {x: 6, y: -11}
+    - - {x: -37, y: 51}
+      - {x: -56, y: 51}
+      - {x: -59, y: 37}
+      - {x: -59, y: 0}
+      - {x: -56, y: -1}
+      - {x: -45, y: -1}
+      - {x: -36, y: 3}
+      - {x: -33, y: 23}
+      - {x: -33, y: 49}
+    - - {x: 57, y: 51}
+      - {x: 39, y: 51}
+      - {x: 38, y: 50}
+      - {x: 38, y: -1}
+      - {x: 56, y: -1}
+      - {x: 58, y: 1}
+      - {x: 63, y: 17}
+      - {x: 63, y: 49}
+    - - {x: -7, y: 53}
+      - {x: -8, y: 52}
+      - {x: -8, y: 11}
+      - {x: -7, y: 1}
+      - {x: 6, y: 1}
+      - {x: 15, y: 17}
+      - {x: 15, y: 51}
+      - {x: 8, y: 53}
+    - - {x: -58, y: 114}
+      - {x: -61, y: 111}
+      - {x: -61, y: 85}
+      - {x: -60, y: 65}
+      - {x: -54, y: 63}
+      - {x: -42, y: 63}
+      - {x: -38, y: 65}
+      - {x: -35, y: 88}
+      - {x: -35, y: 112}
+      - {x: -42, y: 114}
+    - - {x: 60, y: 114}
+      - {x: 36, y: 114}
+      - {x: 35, y: 110}
+      - {x: 35, y: 72}
+      - {x: 40, y: 63}
+      - {x: 55, y: 63}
+      - {x: 59, y: 75}
+      - {x: 61, y: 87}
+      - {x: 61, y: 113}
+    - - {x: 8, y: 116}
+      - {x: -10, y: 116}
+      - {x: -13, y: 109}
+      - {x: -13, y: 66}
+      - {x: -10, y: 65}
+      - {x: 8, y: 65}
+      - {x: 10, y: 67}
+      - {x: 13, y: 89}
+      - {x: 13, y: 114}
+    physicsShape:
+    - - {x: -63, y: -77}
+      - {x: -63, y: -128}
+      - {x: -38, y: -128}
+      - {x: -38, y: -81}
+      - {x: -39, y: -77}
+    - - {x: 36, y: -77}
+      - {x: 33, y: -78}
+      - {x: 33, y: -124}
+      - {x: 39, y: -128}
+      - {x: 59, y: -128}
+      - {x: 59, y: -107}
+      - {x: 57, y: -83}
+      - {x: 53, y: -78}
+      - {x: 50, y: -77}
+    - - {x: 5, y: -76}
+      - {x: 2, y: -75}
+      - {x: -12, y: -75}
+      - {x: -15, y: -76}
+      - {x: -15, y: -111}
+      - {x: -12, y: -127}
+      - {x: 5, y: -127}
+      - {x: 8, y: -117}
+      - {x: 8, y: -81}
+    - - {x: -41, y: -13}
+      - {x: -58, y: -13}
+      - {x: -61, y: -16}
+      - {x: -61, y: -65}
+      - {x: -39, y: -65}
+      - {x: -38, y: -63}
+      - {x: -35, y: -39}
+      - {x: -35, y: -15}
+    - - {x: 42, y: -13}
+      - {x: 35, y: -16}
+      - {x: 35, y: -42}
+      - {x: 40, y: -65}
+      - {x: 55, y: -65}
+      - {x: 61, y: -41}
+      - {x: 61, y: -17}
+      - {x: 58, y: -13}
+    - - {x: -10, y: -11}
+      - {x: -13, y: -15}
+      - {x: -13, y: -44}
+      - {x: -9, y: -63}
+      - {x: 9, y: -63}
+      - {x: 13, y: -50}
+      - {x: 13, y: -14}
+      - {x: 6, y: -11}
+    - - {x: -37, y: 51}
+      - {x: -56, y: 51}
+      - {x: -59, y: 37}
+      - {x: -59, y: 0}
+      - {x: -56, y: -1}
+      - {x: -45, y: -1}
+      - {x: -36, y: 3}
+      - {x: -33, y: 23}
+      - {x: -33, y: 49}
+    - - {x: 57, y: 51}
+      - {x: 39, y: 51}
+      - {x: 38, y: 50}
+      - {x: 38, y: -1}
+      - {x: 56, y: -1}
+      - {x: 58, y: 1}
+      - {x: 63, y: 17}
+      - {x: 63, y: 49}
+    - - {x: -7, y: 53}
+      - {x: -8, y: 52}
+      - {x: -8, y: 11}
+      - {x: -7, y: 1}
+      - {x: 6, y: 1}
+      - {x: 15, y: 17}
+      - {x: 15, y: 51}
+      - {x: 8, y: 53}
+    - - {x: -58, y: 114}
+      - {x: -61, y: 111}
+      - {x: -61, y: 85}
+      - {x: -60, y: 65}
+      - {x: -54, y: 63}
+      - {x: -42, y: 63}
+      - {x: -38, y: 65}
+      - {x: -35, y: 88}
+      - {x: -35, y: 112}
+      - {x: -42, y: 114}
+    - - {x: 60, y: 114}
+      - {x: 36, y: 114}
+      - {x: 35, y: 110}
+      - {x: 35, y: 72}
+      - {x: 40, y: 63}
+      - {x: 55, y: 63}
+      - {x: 59, y: 75}
+      - {x: 61, y: 87}
+      - {x: 61, y: 113}
+    - - {x: 8, y: 116}
+      - {x: -10, y: 116}
+      - {x: -13, y: 109}
+      - {x: -13, y: 66}
+      - {x: -10, y: 65}
+      - {x: 8, y: 65}
+      - {x: 10, y: 67}
+      - {x: 13, y: 89}
+      - {x: 13, y: 114}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
