@@ -15,7 +15,7 @@ public class Torch : MonoBehaviour
     Light2D light;
     float startingIntensity;
 
-    void Start()
+    void Awake()
     {
         startTime = System.DateTime.UtcNow;
         light = gameObject.GetComponent<Light2D>();
