@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mumy_move_right
+  m_Name: mummy_move_right
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -22,10 +22,10 @@ AnimationClip:
     - time: 0
       value: {fileID: -7709571408697089311, guid: ffc797c568d55856a90f770f7d6c828e,
         type: 3}
-    - time: 0.083333336
+    - time: 0.16666667
       value: {fileID: 7679184586583435386, guid: ffc797c568d55856a90f770f7d6c828e,
         type: 3}
-    - time: 0.16666667
+    - time: 0.33333334
       value: {fileID: 2855317184527310348, guid: ffc797c568d55856a90f770f7d6c828e,
         type: 3}
     attribute: m_Sprite
@@ -55,7 +55,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.18333334
+    m_StopTime: 0.35000002
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
