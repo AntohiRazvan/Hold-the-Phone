@@ -13,7 +13,7 @@ public class LightFlicker : MonoBehaviour
 		light = GetComponent<Light2D>(); 
 	}
 
-	void StartFlicker()
+	void StartFlicker(float damage)
 	{
 		StartCoroutine(Flicker());
 	}

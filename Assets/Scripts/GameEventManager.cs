@@ -4,14 +4,16 @@ using System.Collections;
 public class GameEventManager 
 {
 	public delegate void GameEvent();
-	public static event GameEvent TookDamage, GameOver;
+    public delegate void TookDamageEvent(float damage);
+	public static event GameEvent GameOver;
+    public static event TookDamageEvent TookDamage;
 
 
-    public static void TriggerTookDamage()
+    public static void TriggerTookDamage(float damage)
 	{
 		if (TookDamage != null)
 		{
-			TookDamage();
+			TookDamage(damage);
 		}
 	}
 

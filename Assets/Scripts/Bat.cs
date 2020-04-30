@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Bat : MonoBehaviour
 {
+    public float damage;
+    public float damageFrequency;
     Transform goal;
-
+    
     UnityEngine.AI.NavMeshAgent agent;
     Animator anim;
+    float lastDamage;
 
     void Awake()
     {
@@ -18,6 +21,7 @@ public class Bat : MonoBehaviour
     void Start() 
     {
         goal = GameObject.FindGameObjectsWithTag("Player")[0].transform;
+        lastDamage = Time.time;
     }
 
     void Update()
@@ -32,6 +36,20 @@ public class Bat : MonoBehaviour
                 anim.SetFloat("Horizontal", movementDirection.x);
                 anim.SetFloat("Vertical", movementDirection.y);
             }
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D collider)
+    {
+        if(collider.gameObject.tag == "Player")
+        {
+            if(Time.time > lastDamage + damageFrequency)
+            {
+                Debug.Log("HIT!");
+                lastDamage = Time.time;
+                GameEventManager.TriggerTookDamage(damage);
+            }
+
         }
     }
 }

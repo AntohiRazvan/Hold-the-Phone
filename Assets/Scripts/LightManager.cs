@@ -7,7 +7,6 @@ public class LightManager : MonoBehaviour
     public static float lightIntensity;
     public float fadeTime;
     public float finalIntensity;
-    public float secondsLostPerHit;
     
     float startingIntensity;
     float elapsedTime;
@@ -40,8 +39,8 @@ public class LightManager : MonoBehaviour
         }      
     }
 
-    void OnTookDamage()
+    void OnTookDamage(float damage)
     {
-        fadeTime -= secondsLostPerHit;
+        fadeTime -= damage;
     }
 }
