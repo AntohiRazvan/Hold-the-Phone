@@ -29,7 +29,6 @@ public class LightManager : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(lightIntensity);
         if( elapsedTime <= fadeTime )
         {
             lightIntensity = Mathf.Lerp( startingIntensity, finalIntensity, ( elapsedTime / fadeTime ));
