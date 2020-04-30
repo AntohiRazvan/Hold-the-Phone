@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class PlayerMovement : MonoBehaviour
 {
 	[SerializeField]
 	float baseSpeed = 4f;
 	float movementSpeed;
 
+	AudioSource audioData;
 	Vector2 movementDirection;
 	Rigidbody2D rigidbody;
 	Transform firePoint;
@@ -19,6 +21,9 @@ public class PlayerMovement : MonoBehaviour
 		rigidbody = this.GetComponent<Rigidbody2D>();
 		anim = this.GetComponentInChildren<Animator>();
 		firePoint = transform.Find("FirePoint") ;
+		audioData = GetComponent<AudioSource>();
+		audioData.Play(0);
+		audioData.Pause();
 	}
 
 	void FixedUpdate()
@@ -40,11 +45,17 @@ public class PlayerMovement : MonoBehaviour
 		movementSpeed = Mathf.Clamp(movementDirection.sqrMagnitude, 0f, 1f);
 		movementDirection.Normalize();
 		if (movementDirection.y > 0) {
+			audioData.UnPause();
 			firePoint.localPosition  = new Vector3(0f, 0.25f, 0f);
 		} else if (movementDirection.y < 0) {
+			audioData.UnPause();
 			firePoint.localPosition  = new Vector3(0f, -0.75f, 0f);
 		} else if (movementDirection.x != 0) {
 			firePoint.localPosition  = new Vector3(0.25f * Mathf.Sign(movementDirection.x), 0f, 0f);
+			audioData.UnPause();
+		} else {
+			audioData.Pause();
+
 		}
 	}
 }
