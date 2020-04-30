@@ -1,0 +1,1838 @@
+fileFormatVersion: 2
+guid: 001cccdd5bbbe680a81ee0f6346c1c77
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1780127512001950139
+    second: piramid_tiles_0
+  - first:
+      213: 6771379244415813689
+    second: piramid_tiles_1
+  - first:
+      213: 5203259651550797510
+    second: piramid_tiles_2
+  - first:
+      213: 3011237313899657760
+    second: piramid_tiles_3
+  - first:
+      213: 3841827461546277076
+    second: piramid_tiles_4
+  - first:
+      213: -1613332721830245786
+    second: piramid_tiles_5
+  - first:
+      213: -2528633043379829680
+    second: piramid_tiles_6
+  - first:
+      213: -7931760761048562511
+    second: piramid_tiles_7
+  - first:
+      213: -3936031569128280072
+    second: piramid_tiles_8
+  - first:
+      213: -5871188912733164574
+    second: piramid_tiles_9
+  - first:
+      213: -2370198313496429747
+    second: piramid_tiles_10
+  - first:
+      213: 2582389262935791938
+    second: piramid_tiles_11
+  - first:
+      213: 691762607894563135
+    second: piramid_tiles_12
+  - first:
+      213: -4912431045916031348
+    second: piramid_tiles_13
+  - first:
+      213: 8757176899098455023
+    second: piramid_tiles_14
+  - first:
+      213: 5521689527403174333
+    second: piramid_tiles_15
+  - first:
+      213: 347409824011336464
+    second: piramid_tiles_16
+  - first:
+      213: 7348275165524248664
+    second: piramid_tiles_17
+  - first:
+      213: -2443601074909400280
+    second: piramid_tiles_18
+  - first:
+      213: 2607583577751601508
+    second: piramid_tiles_19
+  - first:
+      213: -3337242514637172336
+    second: piramid_tiles_20
+  - first:
+      213: -5893040755687824183
+    second: piramid_tiles_21
+  - first:
+      213: 5258633869337798120
+    second: piramid_tiles_22
+  - first:
+      213: -4430327037974099438
+    second: piramid_tiles_23
+  - first:
+      213: -2363542106070242045
+    second: piramid_tiles_24
+  - first:
+      213: 4528114104926409657
+    second: piramid_tiles_25
+  - first:
+      213: 7692615254509691898
+    second: piramid_tiles_26
+  - first:
+      213: -7875341340840225940
+    second: piramid_tiles_27
+  - first:
+      213: -8655315222567487422
+    second: piramid_tiles_28
+  - first:
+      213: 402021221196091129
+    second: piramid_tiles_29
+  - first:
+      213: -4014995513196453761
+    second: piramid_tiles_30
+  - first:
+      213: 5090023756917002088
+    second: piramid_tiles_31
+  - first:
+      213: 1763180360470226621
+    second: piramid_tiles_32
+  - first:
+      213: -9062395796058220362
+    second: piramid_tiles_33
+  - first:
+      213: -524436455464598410
+    second: piramid_tiles_34
+  - first:
+      213: -1057716242357093481
+    second: piramid_tiles_35
+  - first:
+      213: -134715056864773470
+    second: piramid_tiles_36
+  - first:
+      213: -2956851285632634526
+    second: piramid_tiles_37
+  - first:
+      213: 1577299388149204119
+    second: piramid_tiles_38
+  - first:
+      213: -1213848283998300825
+    second: piramid_tiles_39
+  - first:
+      213: -8137621848256122614
+    second: piramid_tiles_40
+  - first:
+      213: -5290179810849318910
+    second: piramid_tiles_41
+  - first:
+      213: -2051367772875414848
+    second: piramid_tiles_42
+  - first:
+      213: -2614792831489225755
+    second: piramid_tiles_43
+  - first:
+      213: -6309794049294601827
+    second: piramid_tiles_44
+  - first:
+      213: 662518319026168043
+    second: piramid_tiles_45
+  - first:
+      213: 4499306392506946688
+    second: piramid_tiles_46
+  - first:
+      213: 8258007142272619674
+    second: piramid_tiles_47
+  - first:
+      213: -7687128821898551469
+    second: piramid_tiles_48
+  - first:
+      213: -1737521302975138189
+    second: piramid_tiles_49
+  - first:
+      213: 7629337798728354450
+    second: piramid_tiles_50
+  - first:
+      213: -5815746721926261987
+    second: piramid_tiles_51
+  - first:
+      213: 7491704537905242554
+    second: piramid_tiles_52
+  - first:
+      213: 7101165025556641075
+    second: piramid_tiles_53
+  - first:
+      213: 868806662962005209
+    second: piramid_tiles_54
+  - first:
+      213: -7090866130850398226
+    second: piramid_tiles_55
+  - first:
+      213: -1012129751932930811
+    second: piramid_tiles_56
+  - first:
+      213: -9145517419390337937
+    second: piramid_tiles_57
+  - first:
+      213: -1888232714029194509
+    second: piramid_tiles_58
+  - first:
+      213: -4514036530637553353
+    second: piramid_tiles_59
+  - first:
+      213: -5109406330509890575
+    second: piramid_tiles_60
+  - first:
+      213: 2338967780017142926
+    second: piramid_tiles_61
+  - first:
+      213: -3403845429638724426
+    second: piramid_tiles_62
+  - first:
+      213: 7789215973246795954
+    second: piramid_tiles_63
+  - first:
+      213: 1497103332386874978
+    second: piramid_tiles_64
+  - first:
+      213: -7256573983533781869
+    second: piramid_tiles_65
+  - first:
+      213: -4157135902185138833
+    second: piramid_tiles_0
+  - first:
+      213: 4697387301814256255
+    second: piramid_tiles_1
+  - first:
+      213: 5806998350908306871
+    second: piramid_tiles_2
+  - first:
+      213: -3283263199809872102
+    second: piramid_tiles_3
+  - first:
+      213: -8623243443659972190
+    second: piramid_tiles_4
+  - first:
+      213: -5946744594058114018
+    second: piramid_tiles_5
+  - first:
+      213: 1478712577775211393
+    second: piramid_tiles_6
+  - first:
+      213: -8701850130259605106
+    second: piramid_tiles_7
+  - first:
+      213: -2188009567992770135
+    second: piramid_tiles_8
+  - first:
+      213: -3693927846890680806
+    second: piramid_tiles_9
+  - first:
+      213: -6207854319363450155
+    second: piramid_tiles_10
+  - first:
+      213: -7313933642110705380
+    second: piramid_tiles_11
+  - first:
+      213: -8166175638594870468
+    second: piramid_tiles_12
+  - first:
+      213: 8289414791712576770
+    second: piramid_tiles_13
+  - first:
+      213: 2985865721619691306
+    second: piramid_tiles_14
+  - first:
+      213: -308900089753419329
+    second: piramid_tiles_15
+  - first:
+      213: 4612994880280960199
+    second: piramid_tiles_16
+  - first:
+      213: -5689309131292179132
+    second: piramid_tiles_17
+  - first:
+      213: -1819922283640170466
+    second: piramid_tiles_18
+  - first:
+      213: 8624762780271479934
+    second: piramid_tiles_19
+  - first:
+      213: 2051482768266361391
+    second: piramid_tiles_20
+  - first:
+      213: -1811913524971058853
+    second: piramid_tiles_21
+  - first:
+      213: 4007725881876192891
+    second: piramid_tiles_22
+  - first:
+      213: 4361928144001278396
+    second: piramid_tiles_23
+  - first:
+      213: -4401911227000254206
+    second: piramid_tiles_24
+  - first:
+      213: 1837393299144923639
+    second: piramid_tiles_25
+  - first:
+      213: -6968854108055977123
+    second: piramid_tiles_26
+  - first:
+      213: -2001695026432740267
+    second: piramid_tiles_27
+  - first:
+      213: 900062696028939137
+    second: piramid_tiles_28
+  - first:
+      213: 2896341874680526269
+    second: piramid_tiles_29
+  - first:
+      213: 800216521816724271
+    second: piramid_tiles_30
+  - first:
+      213: 3969725627448207593
+    second: piramid_tiles_31
+  - first:
+      213: -8583113737893573727
+    second: piramid_tiles_32
+  - first:
+      213: -1668766278828773070
+    second: piramid_tiles_33
+  - first:
+      213: 2188265294075469877
+    second: piramid_tiles_34
+  - first:
+      213: 642779916889262942
+    second: piramid_tiles_35
+  - first:
+      213: 1055174239673700973
+    second: piramid_tiles_36
+  - first:
+      213: 9130358537750366951
+    second: piramid_tiles_37
+  - first:
+      213: -8835550831846106328
+    second: piramid_tiles_38
+  - first:
+      213: -1479357927656244665
+    second: piramid_tiles_39
+  - first:
+      213: 9062549070090694899
+    second: piramid_tiles_40
+  - first:
+      213: 6861475070253991313
+    second: piramid_tiles_41
+  - first:
+      213: 3550705456572100776
+    second: piramid_tiles_42
+  - first:
+      213: -5193182397780943731
+    second: piramid_tiles_43
+  - first:
+      213: 7214659102619865791
+    second: piramid_tiles_44
+  - first:
+      213: 3197012198807575436
+    second: piramid_tiles_45
+  - first:
+      213: 3130674269120713032
+    second: piramid_tiles_46
+  - first:
+      213: -6374762406220877597
+    second: piramid_tiles_47
+  - first:
+      213: 7914239359670086107
+    second: piramid_tiles_48
+  - first:
+      213: 1053273125595041387
+    second: piramid_tiles_49
+  - first:
+      213: -730083408671895860
+    second: piramid_tiles_50
+  - first:
+      213: -8339127827117349893
+    second: piramid_tiles_51
+  - first:
+      213: -70062547090904158
+    second: piramid_tiles_52
+  - first:
+      213: 1418292339304134301
+    second: piramid_tiles_53
+  - first:
+      213: -1354494681938224162
+    second: piramid_tiles_54
+  - first:
+      213: -8679525880341361822
+    second: piramid_tiles_55
+  - first:
+      213: -1878591535067454509
+    second: piramid_tiles_56
+  - first:
+      213: 3573975831108223894
+    second: piramid_tiles_57
+  - first:
+      213: 8123759654072306101
+    second: piramid_tiles_58
+  - first:
+      213: -5920181377194476000
+    second: piramid_tiles_59
+  - first:
+      213: -6343565718671772593
+    second: piramid_tiles_60
+  - first:
+      213: 5322795440661600657
+    second: piramid_tiles_61
+  - first:
+      213: -4400044787858830629
+    second: piramid_tiles_62
+  - first:
+      213: -3334454920482740838
+    second: piramid_tiles_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: piramid_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f655b332ce2ee46c0800000000000000
+      internalID: -4157135902185138833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72c119fcd8703140800000000000000
+      internalID: 4697387301814256255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b53b2dbb3a969050800000000000000
+      internalID: 5806998350908306871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f5837e3818f62d0800000000000000
+      internalID: -3283263199809872102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a16ee0a6c5145880800000000000000
+      internalID: -8623243443659972190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c01358c4be87da0800000000000000
+      internalID: -5946744594058114018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18391334141758410800000000000000
+      internalID: 1478712577775211393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8980313961dc3780800000000000000
+      internalID: -8701850130259605106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a192a6f3e0a2a1e0800000000000000
+      internalID: -2188009567992770135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e482cc1388cbcc0800000000000000
+      internalID: -3693927846890680806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da97fc136549d9a0800000000000000
+      internalID: -6207854319363450155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1166377a10bf7a90800000000000000
+      internalID: -7313933642110705380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33aa10e58aebae80800000000000000
+      internalID: -8166175638594870468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20595e775dae90370800000000000000
+      internalID: 8289414791712576770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a273824dd0def6920800000000000000
+      internalID: 2985865721619691306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb14927410196bbf0800000000000000
+      internalID: -308900089753419329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc97d52766a40040800000000000000
+      internalID: 4612994880280960199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44581f30d738b01b0800000000000000
+      internalID: -5689309131292179132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e185fcc43565eb6e0800000000000000
+      internalID: -1819922283640170466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c871e7d0051b770800000000000000
+      internalID: 8624762780271479934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2af95165b4587c10800000000000000
+      internalID: 2051482768266361391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59cf5cbf3acad6e0800000000000000
+      internalID: -1811913524971058853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e9e5aa47d4e9730800000000000000
+      internalID: 4007725881876192891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1a9f6598ea88c30800000000000000
+      internalID: 4361928144001278396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20198d5bf0549e2c0800000000000000
+      internalID: -4401911227000254206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9573c787bbf7910800000000000000
+      internalID: 1837393299144923639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d534dcd7c18a94f90800000000000000
+      internalID: -6968854108055977123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5547fc89afc8834e0800000000000000
+      internalID: -2001695026432740267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183a268d04aad7c00800000000000000
+      internalID: 900062696028939137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5fb6ce69fd13820800000000000000
+      internalID: 2896341874680526269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23d846dfa0fa1b00800000000000000
+      internalID: 800216521816724271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8a0d7fc6c471730800000000000000
+      internalID: 3969725627448207593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab041ad787a2e880800000000000000
+      internalID: -8583113737893573727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231b24139e957d8e0800000000000000
+      internalID: -1668766278828773070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5302fa7e0b74e5e10800000000000000
+      internalID: 2188265294075469877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b80f6cdec9be800800000000000000
+      internalID: 642779916889262942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62d4e3616bb4ae00800000000000000
+      internalID: 1055174239673700973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eac09227bc85be70800000000000000
+      internalID: 9130358537750366951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bd7e8c451d16580800000000000000
+      internalID: -8835550831846106328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a34628dc3487be0800000000000000
+      internalID: -1479357927656244665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f07d422d54a4cd70800000000000000
+      internalID: 9062549070090694899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19500b5093bd83f50800000000000000
+      internalID: 6861475070253991313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a07501ecc3a64130800000000000000
+      internalID: 3550705456572100776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c9476bf1c1ee7b0800000000000000
+      internalID: -5193182397780943731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2123b9a3e9f1460800000000000000
+      internalID: 7214659102619865791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b148408a11e5c20800000000000000
+      internalID: 3197012198807575436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841556629a3627b20800000000000000
+      internalID: 3130674269120713032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0b0b1dd5b4887a0800000000000000
+      internalID: -6374762406220877597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9ec8424c605dd60800000000000000
+      internalID: 7914239359670086107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ece86c35afd9e00800000000000000
+      internalID: 1053273125595041387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce84b902093ed5f0800000000000000
+      internalID: -730083408671895860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf368108c67754c80800000000000000
+      internalID: -8339127827117349893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab66901c76170ff0800000000000000
+      internalID: -70062547090904158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9671ef3e59cea310800000000000000
+      internalID: 1418292339304134301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb9ae0634ed33de0800000000000000
+      internalID: -1354494681938224162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b817ba2312c8780800000000000000
+      internalID: -8679525880341361822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3af3ab3f6ede5e0800000000000000
+      internalID: -1878591535067454509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69389092510599130800000000000000
+      internalID: 3573975831108223894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b941a52d546db070800000000000000
+      internalID: 8123759654072306101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02eb076676a47dda0800000000000000
+      internalID: -5920181377194476000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f443939a69027f7a0800000000000000
+      internalID: -6343565718671772593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19914bc704e5ed940800000000000000
+      internalID: 5322795440661600657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_62
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda8ddfe396efe2c0800000000000000
+      internalID: -4400044787858830629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piramid_tiles_63
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95a211aae2a9b1d0800000000000000
+      internalID: -3334454920482740838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
