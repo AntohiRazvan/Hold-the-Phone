@@ -45,7 +45,6 @@ public class Bat : MonoBehaviour
         {
             if(Time.time > lastDamage + damageFrequency)
             {
-                Debug.Log("HIT!");
                 lastDamage = Time.time;
                 GameEventManager.TriggerTookDamage(damage);
             }
