@@ -279,8 +279,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd9248eb8b479dd79f5abca8a159aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 0
-  attackSpeed: 0
+  projectileSpeed: 500
+  attackSpeed: 0.7
   projectile: {fileID: 1073143716834645821, guid: 08a35925ae672e1cf90d5f0be408ab91,
     type: 3}
 --- !u!114 &3861487262826065116
