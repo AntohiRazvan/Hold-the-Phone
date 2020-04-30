@@ -10,7 +10,6 @@ public class PlayerFires : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
-
 		firePoint = transform.Find("FirePoint") ;
 	}
 
@@ -20,6 +19,7 @@ public class PlayerFires : MonoBehaviour
 		if(Input.GetButtonDown("Fire1")) {
              GameObject bullet = Instantiate(projectile, firePoint.transform.position, Quaternion.identity) as GameObject;
              bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.localPosition.normalized * 600);
+			 bullet.timeoutDestructor = 10;
 		}
 	}
 

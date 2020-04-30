@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
 	Vector2 movementDirection;
 	Rigidbody2D rigidbody;
 	Transform firePoint;
-	public Animator anim;
+	Animator anim;
 
 
 	void Awake()
