@@ -10,12 +10,10 @@ public class PlayerFires : MonoBehaviour
 	public GameObject projectile;
 	Transform firePoint;
 	float lastAttack;
-	AudioSource audioData;
 	// Start is called before the first frame update
 	void Start()
 	{
 		firePoint = transform.Find("FirePoint") ;
-		audioData = firePoint.GetComponent<AudioSource>();
 	}
 
 	void Update()
@@ -26,7 +24,6 @@ public class PlayerFires : MonoBehaviour
 			GameObject bullet = Instantiate(projectile, firePoint.transform.position, Quaternion.identity) as GameObject;
 			bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.localPosition.normalized * projectileSpeed);
 			Destroy(bullet, 5);
-			audioData.Play(0);
 		}
 	}
 
