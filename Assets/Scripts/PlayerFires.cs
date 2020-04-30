@@ -24,6 +24,7 @@ public class PlayerFires : MonoBehaviour
 			GameObject bullet = Instantiate(projectile, firePoint.transform.position, Quaternion.identity) as GameObject;
 			bullet.GetComponent<Rigidbody2D>().AddForce(firePoint.localPosition.normalized * projectileSpeed);
 			Destroy(bullet, 5);
+			GameEventManager.TriggerTookDamage();
 		}
 	}
 
