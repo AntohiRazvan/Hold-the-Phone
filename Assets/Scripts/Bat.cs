@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Bat : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Transform goal;
+
     void Start()
     {
-        
+        UnityEngine.AI.NavMeshAgent agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        agent.SetDestination(goal.position);
     }
 
-    // Update is called once per frame
     void Update()
     {
         
