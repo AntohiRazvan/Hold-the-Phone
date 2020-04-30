@@ -24,9 +24,9 @@ public class Bat : MonoBehaviour
     {
         Vector2 movementDirection = Vector2.zero;
         agent.SetDestination(goal.position);
+        movementDirection = (goal.position - gameObject.transform.position).normalized;
         if(movementDirection.sqrMagnitude - 0.01f >= 0f)
 		{
-            movementDirection = (goal.position - gameObject.transform.position).normalized;
 			anim.SetFloat("Horizontal", movementDirection.x);
 			anim.SetFloat("Vertical", movementDirection.y);
 		}
