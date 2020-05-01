@@ -21,8 +21,41 @@ public class Health : MonoBehaviour
         if(health <= 0)
         {
             Die();
-        }
+        } else {
+			StartFlicker();
+		}
     }
+
+	void StartFlicker()
+	{
+		StartCoroutine(Flicker());
+	}
+	IEnumerator Flicker()
+ 	{	
+		float intensity = 0.3f; 
+		SpriteRenderer renderer = GetComponentInChildren<SpriteRenderer>();
+		Color color = renderer.color;
+		float timePassed = 0;
+		bool on = true;
+		while (timePassed < 0.4f)
+		{
+			Debug.Log(on);
+			if (on) {
+				color.a = intensity;
+				renderer.color = color;
+			} else {
+				color.a = 1f;
+				renderer.color = color;
+			}
+			on = !on;
+			timePassed += Time.deltaTime;
+	
+			yield return null;
+		}
+		color.a = 1f;
+		renderer.color = color;
+
+ 	}
 
     void Die()
     {
