@@ -26,15 +26,22 @@ public class Projectile : MonoBehaviour
 		if(collider.gameObject.tag == "Enemy")
 		{
 			Object.Destroy(this.gameObject);
-			collider.gameObject.GetComponent<Health>().TakeDamage(damage);
+			GameObject target = collider.gameObject;
+			Health health = collider.gameObject.GetComponent<Health>();
+			if (health == null) {
+				target = collider.gameObject.transform.parent.gameObject;
+				health = target.GetComponent<Health>();
+			}
+			health.TakeDamage(damage);
 
 
 			Vector2 thisPosition = transform.position;
-			Vector2 enemyPosition = collider.gameObject.transform.position;
+			Vector2 enemyPosition = target.transform.position;
 
 			Vector2 dir = (enemyPosition - thisPosition) .normalized;
 
-			Rigidbody2D rigidbody = collider.gameObject.GetComponent<Rigidbody2D>();
+			Rigidbody2D rigidbody = target.GetComponent<Rigidbody2D>();
+			Debug.Log(rigidbody);
 			Debug.Log(dir * knockbackForce);
 			rigidbody.AddForce(dir * knockbackForce, ForceMode2D.Impulse);
 		}

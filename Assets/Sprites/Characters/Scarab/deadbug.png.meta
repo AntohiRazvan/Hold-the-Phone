@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: 3d34ff5d7bab7959cb5de01f2752ca35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8849407441281451378
+    second: deadbug_0
+  - first:
+      213: -8055286953143695505
+    second: deadbug_1
+  - first:
+      213: 992352120641261118
+    second: deadbug_2
+  - first:
+      213: 4395763575211059756
+    second: deadbug_3
+  - first:
+      213: 8676846328484706508
+    second: deadbug_4
+  - first:
+      213: 3347069889176847572
+    second: deadbug_5
+  - first:
+      213: 7192874643202597012
+    second: deadbug_6
+  - first:
+      213: -3817684948458555646
+    second: deadbug_7
+  - first:
+      213: -6704878808241820715
+    second: deadbug_8
+  - first:
+      213: -2203129875085394182
+    second: deadbug_9
+  - first:
+      213: -4166432588918709653
+    second: deadbug_10
+  - first:
+      213: -7079218501500738297
+    second: deadbug_11
+  - first:
+      213: -5884620807010792138
+    second: deadbug_12
+  - first:
+      213: 1171100630504804456
+    second: deadbug_13
+  - first:
+      213: 979106705709836654
+    second: deadbug_14
+  - first:
+      213: 3001482185956851043
+    second: deadbug_0
+  - first:
+      213: -1467397389574172942
+    second: deadbug_1
+  - first:
+      213: 5973097707730062288
+    second: deadbug_2
+  - first:
+      213: -4983306987517158836
+    second: deadbug_3
+  - first:
+      213: 4071147519246145299
+    second: deadbug_4
+  - first:
+      213: 8633359201482336403
+    second: deadbug_5
+  - first:
+      213: 4479949587984286161
+    second: deadbug_6
+  - first:
+      213: 2761487992020470015
+    second: deadbug_7
+  - first:
+      213: -1714757008564389293
+    second: deadbug_8
+  - first:
+      213: -3193564399531300238
+    second: deadbug_9
+  - first:
+      213: 5248964470772575086
+    second: deadbug_10
+  - first:
+      213: 4521108609011907008
+    second: deadbug_11
+  - first:
+      213: 6250252288174413138
+    second: deadbug_12
+  - first:
+      213: 5033043054718505289
+    second: deadbug_13
+  - first:
+      213: 7926398106095955114
+    second: deadbug_14
+  - first:
+      213: 7598162189454565638
+    second: deadbug_15
+  - first:
+      213: -84958008622752131
+    second: deadbug_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: deadbug_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 80
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dfe95452867a920800000000000000
+      internalID: 3001482185956851043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 76
+        width: 59
+        height: 52
+      alignment: 9
+      pivot: {x: 0.44950297, y: 0.49999985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe881a49d1c2abe0800000000000000
+      internalID: -1467397389574172942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 83
+        width: 46
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5207765, y: 0.44795418}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db43f5e7b4b4e250800000000000000
+      internalID: 5973097707730062288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 83
+        width: 51
+        height: 40
+      alignment: 9
+      pivot: {x: 0.48942536, y: 0.5009987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a515292bcb7dab0800000000000000
+      internalID: -4983306987517158836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_4
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 84
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31711e0591f9f7830800000000000000
+      internalID: 4071147519246145299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 73
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39864b6c37adfc770800000000000000
+      internalID: 8633359201482336403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_6
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 35
+        width: 37
+        height: 32
+      alignment: 9
+      pivot: {x: 0.54262924, y: 0.51095307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1067b1a6afb2e30800000000000000
+      internalID: 4479949587984286161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 59
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff803ef92b6c25620800000000000000
+      internalID: 2761487992020470015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 47
+        height: 33
+      alignment: 9
+      pivot: {x: 0.6566099, y: 0.473446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a786cf595f338e0800000000000000
+      internalID: -1714757008564389293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_9
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 57
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a6a9e491e2ea3d0800000000000000
+      internalID: -3193564399531300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_10
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 32
+        width: 38
+        height: 31
+      alignment: 9
+      pivot: {x: 0.4999996, y: 0.46391812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bab0f306118d840800000000000000
+      internalID: 5248964470772575086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 31
+        width: 42
+        height: 36
+      alignment: 9
+      pivot: {x: 0.39985403, y: 0.4026364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c97d1773543ebe30800000000000000
+      internalID: 4521108609011907008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 27
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2555531475b5db650800000000000000
+      internalID: 6250252288174413138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 35
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9415eb7fdf5f8d540800000000000000
+      internalID: 5033043054718505289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 29
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacad26e419300e60800000000000000
+      internalID: 7926398106095955114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 29
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6016e382148127960800000000000000
+      internalID: 7598162189454565638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadbug_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 24
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e573b242b22def0800000000000000
+      internalID: -84958008622752131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
