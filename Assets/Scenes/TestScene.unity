@@ -269,26 +269,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3521303446218419525, guid: 9421e67a94f7c17788dafddbee008fa2,
-        type: 3}
-      propertyPath: projectileSpeed
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 3521303446218419525, guid: 9421e67a94f7c17788dafddbee008fa2,
-        type: 3}
-      propertyPath: attackSpeed
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3861487262826065113, guid: 9421e67a94f7c17788dafddbee008fa2,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3861487262826065113, guid: 9421e67a94f7c17788dafddbee008fa2,
-        type: 3}
-      propertyPath: m_SleepingMode
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3861487262826065117, guid: 9421e67a94f7c17788dafddbee008fa2,
         type: 3}
       propertyPath: m_Name
@@ -1801,25 +1781,6 @@ MonoBehaviour:
   m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
---- !u!1 &845881851 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3765576732666803099, guid: 9713dcc77d5c1af429e826c9e43e4404,
-    type: 3}
-  m_PrefabInstance: {fileID: 3765576732438925920}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &845881856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845881851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef675257abddd764d922e4d76fd1841a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
 --- !u!43 &1012852996
 Mesh:
   m_ObjectHideFlags: 0
@@ -8079,7 +8040,7 @@ PrefabInstance:
     - target: {fileID: 3765576732666803100, guid: 9713dcc77d5c1af429e826c9e43e4404,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.265
+      value: -1.486
       objectReference: {fileID: 0}
     - target: {fileID: 3765576732666803100, guid: 9713dcc77d5c1af429e826c9e43e4404,
         type: 3}
@@ -8125,36 +8086,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3765576732666803101, guid: 9713dcc77d5c1af429e826c9e43e4404,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3765576732666803101, guid: 9713dcc77d5c1af429e826c9e43e4404,
-        type: 3}
-      propertyPath: damage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3765576732666803101, guid: 9713dcc77d5c1af429e826c9e43e4404,
-        type: 3}
-      propertyPath: damageFrequency
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3765576732666803102, guid: 9713dcc77d5c1af429e826c9e43e4404,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3765576732666803103, guid: 9713dcc77d5c1af429e826c9e43e4404,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3765576732666803103, guid: 9713dcc77d5c1af429e826c9e43e4404,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9713dcc77d5c1af429e826c9e43e4404, type: 3}
