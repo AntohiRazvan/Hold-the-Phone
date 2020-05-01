@@ -6,12 +6,16 @@ public class Health : MonoBehaviour
 {
     public float health;
 
-    CircleCollider2D collider;
+    Collider2D collider;
     Animator anim;
+	public float timeOfDeath;
 
     void Awake()
     {
         collider = this.gameObject.GetComponent<CircleCollider2D>();
+		if (collider == null) {
+			collider = this.gameObject.GetComponentInChildren<CapsuleCollider2D>();
+		}
         anim = GetComponentInChildren<Animator>();
     }
 
@@ -59,7 +63,7 @@ public class Health : MonoBehaviour
 
     void Die()
     {
-        Object.Destroy(this.gameObject, 3.0f);
+        Object.Destroy(this.gameObject, timeOfDeath);
         collider.enabled = false;
         UnityEngine.AI.NavMeshAgent navMeshAgent = this.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
         if(navMeshAgent)
@@ -68,7 +72,9 @@ public class Health : MonoBehaviour
         }
         if(anim)
         {
+            anim.SetFloat("Speed", 0);
             anim.SetBool("IsDead", true);
+			anim = null;
         }
 
     }
