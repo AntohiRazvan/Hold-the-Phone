@@ -11,6 +11,8 @@ public class Bat : MonoBehaviour
     UnityEngine.AI.NavMeshAgent agent;
     Animator anim;
     float lastDamage;
+    GameObject player;
+    bool acquiredTarget;
 
     void Awake()
     {
@@ -20,22 +22,50 @@ public class Bat : MonoBehaviour
 
     void Start() 
     {
-        goal = GameObject.FindGameObjectsWithTag("Player")[0].transform;
+        player = GameObject.FindGameObjectsWithTag("Player")[0];
         lastDamage = Time.time;
+        acquiredTarget = false;
     }
 
     void Update()
     {
-        if(agent.enabled)
+        Vector3 playerPosition = player.transform.position;
+        
+        if(!agent.enabled)
         {
-            Vector2 movementDirection = Vector2.zero;
-            agent.SetDestination(goal.position);
-            movementDirection = (goal.position - gameObject.transform.position).normalized;
-            if(movementDirection.sqrMagnitude - 0.01f >= 0f)
-            {
-                anim.SetFloat("Horizontal", movementDirection.x);
-                anim.SetFloat("Vertical", movementDirection.y);
-            }
+            return;
+        }
+
+        if(acquiredTarget)
+        {
+            MoveTo(playerPosition);
+        }
+        else
+        {
+            CheckForTarget(playerPosition); 
+        }
+        
+    }
+
+    void CheckForTarget(Vector3 position)
+    {
+        if(Vector2.Distance(position, gameObject.transform.position) < 15f)
+        {
+            acquiredTarget = true;
+        }
+
+    }
+
+    void MoveTo(Vector3 position)
+    {
+        Vector2 movementDirection = Vector2.zero;
+        agent.SetDestination(position);
+        movementDirection = (position - gameObject.transform.position).normalized;
+        
+        if(movementDirection.sqrMagnitude - 0.01f >= 0f)
+        {
+            anim.SetFloat("Horizontal", movementDirection.x);
+            anim.SetFloat("Vertical", movementDirection.y);
         }
     }
 

@@ -24,7 +24,7 @@ public class LightFlicker : MonoBehaviour
 		float timePassed = 0;
 		while (timePassed < 0.2f)
 		{
-			light.intensity = intensity + intensity * (Random.Range(-0.5f, 0.2f));
+			light.intensity = intensity + intensity * (Random.Range(-0.8f, 0.3f));
 			timePassed += Time.deltaTime;
 	
 			yield return null;

@@ -35,7 +35,6 @@ public class Projectile : MonoBehaviour
 			Vector2 dir = (enemyPosition - thisPosition) .normalized;
 
 			Rigidbody2D rigidbody = collider.gameObject.GetComponent<Rigidbody2D>();
-			Debug.Log(dir * knockbackForce);
 			rigidbody.AddForce(dir * knockbackForce, ForceMode2D.Impulse);
 		}
 	}
