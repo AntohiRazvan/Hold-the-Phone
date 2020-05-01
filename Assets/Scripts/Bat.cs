@@ -7,7 +7,7 @@ public class Bat : MonoBehaviour
     public float damage;
     public float damageFrequency;
     Transform goal;
-    
+
     UnityEngine.AI.NavMeshAgent agent;
     Animator anim;
     float lastDamage;

@@ -6,12 +6,14 @@ public class Health : MonoBehaviour
 {
     public float health;
 
+    AudioSource sound;   
     Collider2D collider;
     Animator anim;
 	public float timeOfDeath;
 
     void Awake()
     {
+		sound = gameObject.GetComponent<AudioSource>();
         collider = this.gameObject.GetComponent<CircleCollider2D>();
 		if (collider == null) {
 			collider = this.gameObject.GetComponentInChildren<CapsuleCollider2D>();
@@ -21,6 +23,7 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+		sound.Play();
         health -= damage;
         if(health <= 0)
         {
@@ -43,7 +46,6 @@ public class Health : MonoBehaviour
 		bool on = true;
 		while (timePassed < 0.4f)
 		{
-			Debug.Log(on);
 			if (on) {
 				color.a = intensity;
 				renderer.color = color;
