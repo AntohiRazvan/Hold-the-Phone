@@ -48,19 +48,4 @@ public class LightFollow : MonoBehaviour
 				return up;
 		}
 	}
-
-	/* IEnumerator RotateLight() */
-	/* { */
-	/*	running = true; */
-	/*	Vector3 target = new Vector3(0,0,0); */
-	/*	Debug.Log(Mathf.Abs(target.z-transform.localEulerAngles.z)); */
-	/*	while (Mathf.Abs(targetAngle - transform.localEulerAngles.z) > 1 &&  ) */
-	/*	{ */
-	/*		target.z = Mathf.SmoothDampAngle(transform.localEulerAngles.z, targetAngle,ref yVelocity, smooth); */
-	/*		transform.localEulerAngles = target; */
-	/*		yield return null; */
-	/*	} */
-	/*	running = false; */
-	/* } */
-
 }

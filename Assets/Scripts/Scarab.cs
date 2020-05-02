@@ -40,7 +40,6 @@ public class Scarab : MonoBehaviour
     {
         Vector3 playerPosition = goal.transform.position;
         
-		Debug.Log("Health" +health.health+ "Baby" + baby + " hasBabies" + hasBabies );
         if (health.health <=0 && !baby && !hasBabies) 
         {
 			hasBabies = true;
