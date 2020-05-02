@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     {
         GameEventManager.GameOver += GameOver;
         gameEnded = false;
+		StartCoroutine(StartGame());
     }
 
     void GameOver(bool hasWon)
@@ -39,6 +40,9 @@ public class GameManager : MonoBehaviour
         }
 
     }
+	void OnDestroy() {
+		GameEventManager.OnDestroy();
+	}
 
     IEnumerator RestartGameAfter(float seconds)
     {
@@ -67,8 +71,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void OnDestroy()
-    {
-        GameEventManager.GameOver -= GameOver;
-    }
+	IEnumerator StartGame()
+	{
+		Debug.Log("StartGame soon");
+		yield return new WaitForSeconds(0.5f);
+		Debug.Log("StartGame");
+		GameEventManager.TriggerGameStart();
+	}
 }

@@ -9,6 +9,8 @@ public class GameEventManager
 	public delegate void TookDamageEvent(float damage);
 	public static event TookDamageEvent TookDamage;
 
+	public delegate void GameStartsEvent();
+	public static event GameStartsEvent GameStarts;
 
     public static void TriggerTookDamage(float damage)
 	{
@@ -24,5 +26,21 @@ public class GameEventManager
 		{
 			GameOver(hasWon);
 		}
+	}
+	public static void TriggerGameStart()
+	{
+			Debug.Log("bla null");
+		if (GameStarts != null) 
+		{
+			Debug.Log("Not null");
+			GameStarts();
+		}
+	}
+
+	public static void OnDestroy()
+	{
+		GameOver = null;
+		TookDamage = null;
+		GameStarts = null;
 	}
 }
