@@ -26,6 +26,9 @@ public class PlayerMovement : MonoBehaviour
 		audioData = GetComponent<AudioSource>();
 		audioData.Play(0);
 		audioData.Pause();
+		anim.SetFloat("Horizontal", 1f);
+		lightFollow.followPlayer(-90f);
+		firePoint.localPosition  = new Vector3(0.45f, 0f, 0f);
 	}
 
 	void FixedUpdate()
