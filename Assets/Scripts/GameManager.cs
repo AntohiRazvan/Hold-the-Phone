@@ -73,7 +73,7 @@ public class GameManager : MonoBehaviour
 
 	IEnumerator StartGame()
 	{
-		yield return new WaitForSeconds(0.5f);
+		yield return new WaitForSeconds(2.0f);
 		GameEventManager.TriggerGameStart();
 	}
 }

@@ -38,10 +38,12 @@ public class LightManager : MonoBehaviour
 
     void Update()
     {
-		if (state== GameState.Stop) {
+		if (state == GameState.Stop) 
+        {
 			return;
 		}
-		if (state == GameState.Starting) {
+		if (state == GameState.Starting) 
+        {
 			FadeInLight();
 			return;
 		}
@@ -61,7 +63,14 @@ public class LightManager : MonoBehaviour
 
     void OnTookDamage(float damage)
     {
-        fadeTime -= damage;
+        if(fadeTime - damage < 1)
+        {
+            fadeTime = 1;
+        }
+        else
+        {
+            fadeTime -= damage;
+        }
     }
 
 	void OnGameStart() 
@@ -74,7 +83,7 @@ public class LightManager : MonoBehaviour
     {
 		lightIntensity = Mathf.SmoothDamp( lightIntensity, 1f, ref yVelocity, 0.9f);
 		elapsedTime += Time.deltaTime;
-		if (Mathf.Approximately(lightIntensity, 1f)) 
+        if(lightIntensity + 0.05f > 1f)
         {
 			state = GameState.Running;
 			elapsedTime = 0;
