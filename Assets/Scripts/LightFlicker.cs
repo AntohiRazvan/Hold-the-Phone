@@ -42,4 +42,10 @@ public class LightFlicker : MonoBehaviour
 	{
 		gameOver = true;
 	}
+
+	void OnDestroy()
+	{
+		GameEventManager.GameOver -= GameOver;
+		GameEventManager.TookDamage -= StartFlicker;
+	}
 }

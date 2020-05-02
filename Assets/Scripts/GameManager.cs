@@ -9,9 +9,12 @@ public class GameManager : MonoBehaviour
     public Text gameLostText;
     public Text gameWonText;
 
+    bool gameEnded;
+
     void Start()
     {
         GameEventManager.GameOver += GameOver;
+        gameEnded = false;
     }
 
     void GameOver(bool hasWon)
@@ -19,13 +22,20 @@ public class GameManager : MonoBehaviour
         //Time.timeScale = 0;
         if(hasWon)
         {
-            StartCoroutine(FadeInText(gameWonText, 2.5f));
-            StartCoroutine(QuitGameAfter(5f));
+            if(!gameEnded)
+            {
+                gameEnded = true;
+                StartCoroutine(FadeInText(gameWonText, 1.5f));
+                StartCoroutine(QuitGameAfter(5f));
+            }
         }
         else
         {
-            StartCoroutine(FadeInText(gameLostText, 2.5f));
-            StartCoroutine(RestartGameAfter(5f));
+            if(!gameEnded)
+            {
+                StartCoroutine(FadeInText(gameLostText, 1.5f));
+                StartCoroutine(RestartGameAfter(5f));
+            }
         }
 
     }
@@ -45,7 +55,6 @@ public class GameManager : MonoBehaviour
 
     IEnumerator FadeInText(Text text, float seconds)
     {
-		Debug.Log("Fade");
         Color newColor = text.color;
         newColor.a = 1f;
         float t = 0f;
@@ -56,5 +65,10 @@ public class GameManager : MonoBehaviour
             t += Time.deltaTime/seconds;
             yield return new WaitForSeconds(0.2f);
         }
+    }
+
+    void OnDestroy()
+    {
+        GameEventManager.GameOver -= GameOver;
     }
 }

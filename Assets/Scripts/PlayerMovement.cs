@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 	Transform firePoint;
 	Animator anim;
 	LightFollow lightFollow;
+	bool gameOver;
 
 
 	void Awake()
@@ -29,6 +30,12 @@ public class PlayerMovement : MonoBehaviour
 		anim.SetFloat("Horizontal", 1f);
 		lightFollow.followPlayer(-90f);
 		firePoint.localPosition  = new Vector3(0.45f, 0f, 0f);
+	}
+
+	void Start()
+	{
+		GameEventManager.GameOver += GameOver;
+		gameOver = false;
 	}
 
 	void FixedUpdate()
@@ -46,26 +53,37 @@ public class PlayerMovement : MonoBehaviour
 
 	void Update()
 	{
-		movementDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-		movementSpeed = Mathf.Clamp(movementDirection.sqrMagnitude, 0f, 1f);
-		movementDirection.Normalize();
-		if (movementDirection.y > 0) {
-			audioData.UnPause();
-			firePoint.localPosition  = new Vector3(0f, 0.55f, 0f);
-			lightFollow.followPlayer(0f);
-		} else if (movementDirection.y < 0) {
-			audioData.UnPause();
-			firePoint.localPosition  = new Vector3(0f, -0.75f, 0f);
-			lightFollow.followPlayer(180f);
-		} else if (movementDirection.x != 0) {
-			firePoint.localPosition  = new Vector3(0.45f * Mathf.Sign(movementDirection.x), 0f, 0f);
-			lightFollow.followPlayer(-90f * Mathf.Sign(movementDirection.x));
-			audioData.UnPause();
-		} else {
-			audioData.Pause();
+		if(!gameOver)
+		{
+			movementDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+			movementSpeed = Mathf.Clamp(movementDirection.sqrMagnitude, 0f, 1f);
+			movementDirection.Normalize();
+			if (movementDirection.y > 0) {
+				audioData.UnPause();
+				firePoint.localPosition  = new Vector3(0f, 0.55f, 0f);
+				lightFollow.followPlayer(0f);
+			} else if (movementDirection.y < 0) {
+				audioData.UnPause();
+				firePoint.localPosition  = new Vector3(0f, -0.75f, 0f);
+				lightFollow.followPlayer(180f);
+			} else if (movementDirection.x != 0) {
+				firePoint.localPosition  = new Vector3(0.45f * Mathf.Sign(movementDirection.x), 0f, 0f);
+				lightFollow.followPlayer(-90f * Mathf.Sign(movementDirection.x));
+				audioData.UnPause();
+			} else {
+				audioData.Pause();
+			}
 		}
 	}
 
+	void GameOver(bool hasWon)
+	{
+		gameOver = true;
+	}
 
+	void OnDestroy()
+	{
+		GameEventManager.GameOver -= GameOver;
+	}
 
 }

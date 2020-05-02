@@ -16,7 +16,6 @@ public class LightManager : MonoBehaviour
     void Awake()
     {
         GameEventManager.TookDamage += OnTookDamage;
-        DontDestroyOnLoad(this);
     }
 
     void Start()
@@ -46,5 +45,10 @@ public class LightManager : MonoBehaviour
     void OnTookDamage(float damage)
     {
         fadeTime -= damage;
+    }
+
+    void OnDestroy()
+    {
+        GameEventManager.TookDamage -= OnTookDamage;
     }
 }
