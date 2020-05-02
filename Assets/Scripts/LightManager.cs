@@ -51,7 +51,7 @@ public class LightManager : MonoBehaviour
         if( elapsedTime <= fadeTime )
         {
             lightIntensity = Mathf.Lerp( startingIntensity, finalIntensity, ( elapsedTime / fadeTime ));
-            music.volume = Mathf.Lerp( 0.05f, 0.6f, ( elapsedTime / fadeTime ));
+            music.volume = Mathf.Lerp( 0.08f, 0.65f, ( elapsedTime / fadeTime ));
             elapsedTime += Time.deltaTime;
         }
         else
