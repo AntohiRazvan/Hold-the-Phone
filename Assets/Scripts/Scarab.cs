@@ -8,6 +8,7 @@ public class Scarab : MonoBehaviour
     public float damageFrequency;
 	public bool baby;
 	public bool hasBabies;
+    bool acquiredTarget;
 	public GameObject babyPrefab;
 	public GameObject[] spawns = new GameObject[3];
 	
@@ -32,40 +33,71 @@ public class Scarab : MonoBehaviour
     {
         goal = GameObject.FindGameObjectsWithTag("Player")[0].transform;
         lastDamage = Time.time;
+        acquiredTarget = false;
     }
-
-	public GameObject dest; 
+   
     void Update()
     {
-        if(agent.enabled && !baby)
+        Vector3 playerPosition = goal.transform.position;
+        
+        if(!agent.enabled)
         {
-            Vector3 movementDirection = Vector2.zero;
-            agent.SetDestination(goal.position);
-            movementDirection = (goal.position - gameObject.transform.position).normalized;
-			anim.SetFloat("Speed", movementDirection.sqrMagnitude);
-			
-            Vector3 vectorToTarget = goal.position - transform.position;
-            float angle = Mathf.Atan2(vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg;
-            Quaternion q = Quaternion.AngleAxis(angle-90, Vector3.forward);
-            sprite.transform.rotation = Quaternion.Slerp(sprite.transform.rotation, q, Time.deltaTime*5f); 
+            return;
         }
-    }
 
-	void FixedUpdate() {
-		if (health.health <=0 && !baby && !hasBabies) {
+   
+
+        if(acquiredTarget)
+        {
+            MoveTo(playerPosition);
+        }
+        else
+        {
+            CheckForTarget(playerPosition); 
+        }
+
+        if (health.health <=0 && !baby && !hasBabies) 
+        {
 			hasBabies = true;
 			spawnBabies();
-		}
-	}
+		} 
+    }
 
-	void spawnBabies() {
-		foreach ( GameObject spawn in spawns) {
+	void spawnBabies() 
+    {
+		foreach ( GameObject spawn in spawns) 
+        {
             if(spawn)
             {
 			    GameObject baby = Instantiate(babyPrefab, spawn.transform.position, Quaternion.identity) as GameObject;
             }
 		} 
 	}
+
+    void MoveTo(Vector3 position)
+    {
+        if(!baby)
+        {
+            Vector3 movementDirection = Vector2.zero;
+            agent.SetDestination(position);
+            movementDirection = (position - gameObject.transform.position).normalized;
+			anim.SetFloat("Speed", movementDirection.sqrMagnitude);
+			
+            Vector3 vectorToTarget = position - transform.position;
+            float angle = Mathf.Atan2(vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg;
+            Quaternion q = Quaternion.AngleAxis(angle-90, Vector3.forward);
+            sprite.transform.rotation = Quaternion.Slerp(sprite.transform.rotation, q, Time.deltaTime*5f); 
+        }
+    }
+
+    void CheckForTarget(Vector3 position)
+    {
+        if(Vector2.Distance(position, gameObject.transform.position) < 12f)
+        {
+            acquiredTarget = true;
+        }
+
+    }
 
     void OnTriggerStay2D(Collider2D collider)
     {

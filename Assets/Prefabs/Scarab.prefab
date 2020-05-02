@@ -392,8 +392,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dee3dc2b7d95b57fbdd50ec88b006ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
-  damageFrequency: 0
+  damage: 5
+  damageFrequency: 0.5
   baby: 0
   hasBabies: 0
   babyPrefab: {fileID: 6723173290170466854, guid: a45857ccc0fc65f8186f13397566fa7d,
