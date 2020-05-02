@@ -33,12 +33,10 @@ public class BatSpawner : MonoBehaviour
     {
         if(lastChecked + 5f < Time.time)
         {
-            Debug.Log("Got here");
             for(int i = 0; i < bats.Count; ++i)
             {
                 if(bats[i] == null)
                 {
-                    Debug.Log("And here");
                     StartCoroutine(CreateBat(i));
                 }
             }

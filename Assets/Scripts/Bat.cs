@@ -49,7 +49,7 @@ public class Bat : MonoBehaviour
 
     void CheckForTarget(Vector3 position)
     {
-        if(Vector2.Distance(position, gameObject.transform.position) < 15f)
+        if(Vector2.Distance(position, gameObject.transform.position) < 12f)
         {
             acquiredTarget = true;
         }
