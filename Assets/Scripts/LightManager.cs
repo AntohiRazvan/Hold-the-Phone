@@ -13,22 +13,39 @@ public class LightManager : MonoBehaviour
     float elapsedTime;
     System.DateTime startTime;
 
+	enum GameState 
+	{
+		Stop,
+		Starting,
+		Running
+	}
+	GameState state;
     void Awake()
     {
         GameEventManager.TookDamage += OnTookDamage;
+        GameEventManager.GameStarts += OnGameStart;
+        DontDestroyOnLoad(this);
     }
 
     void Start()
     {
         music = GameObject.FindGameObjectsWithTag("MainCamera")[0].GetComponent<AudioSource>();
         startTime = System.DateTime.UtcNow;
-        lightIntensity = 1f;
-        startingIntensity = lightIntensity;
+        lightIntensity = 0f;
+        startingIntensity = 1f;
         elapsedTime = 0;
     }
 
     void Update()
     {
+		if (state== GameState.Stop) {
+			return;
+		}
+		if (state == GameState.Starting) {
+			FadeInLight();
+			return;
+		}
+
         if( elapsedTime <= fadeTime )
         {
             lightIntensity = Mathf.Lerp( startingIntensity, finalIntensity, ( elapsedTime / fadeTime ));
@@ -47,8 +64,18 @@ public class LightManager : MonoBehaviour
         fadeTime -= damage;
     }
 
-    void OnDestroy()
-    {
-        GameEventManager.TookDamage -= OnTookDamage;
-    }
+	void OnGameStart() {
+		state = GameState.Starting;
+		Debug.Log("lightGameStarting");
+	}
+
+	float yVelocity = 0.0f;
+	void FadeInLight() {
+		lightIntensity = Mathf.SmoothDamp( lightIntensity, 1f, ref yVelocity, 0.9f);
+		elapsedTime += Time.deltaTime;
+		if (Mathf.Approximately(lightIntensity, 1f)) {
+			state = GameState.Running;
+			elapsedTime = 0;
+		}
+	}
 }
