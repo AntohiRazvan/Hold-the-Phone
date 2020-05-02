@@ -10,7 +10,8 @@ public class Scarab : MonoBehaviour
 	public bool hasBabies;
 	public GameObject babyPrefab;
 	public GameObject[] spawns = new GameObject[3];
-	public Transform sprite;
+	
+    Transform sprite;
     Transform goal;
     
     UnityEngine.AI.NavMeshAgent agent;
@@ -24,7 +25,7 @@ public class Scarab : MonoBehaviour
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         anim = GetComponentInChildren<Animator>();
 		health = GetComponent<Health>();
-		sprite = transform.GetChild(0);
+		sprite = transform.Find("Sprite");
     }
 
     void Start() 
@@ -38,22 +39,16 @@ public class Scarab : MonoBehaviour
     {
         if(agent.enabled && !baby)
         {
-            Vector2 movementDirection = Vector2.zero;
+            Vector3 movementDirection = Vector2.zero;
             agent.SetDestination(goal.position);
             movementDirection = (goal.position - gameObject.transform.position).normalized;
 			anim.SetFloat("Speed", movementDirection.sqrMagnitude);
-			Vector3 rotation = Vector3.zero;
-			if (Mathf.Abs(movementDirection.y) - 0.01f >= 0f) {
-				rotation.z = Mathf.Sign(movementDirection.y) * 90;
-			} else if (Mathf.Abs(movementDirection.x) - 0.01f >= 0f) {
-				rotation.z = Mathf.Sign(movementDirection.x) * 180;
-			}
-			rotation.x = 90;
-			sprite.localEulerAngles = rotation;
-
-        } else {
-			/* transform.position = Vector3.MoveTowards(transform.position, dest.transform.position, Time.deltaTime); */
-		}
+			
+            Vector3 vectorToTarget = goal.position - transform.position;
+            float angle = Mathf.Atan2(vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg;
+            Quaternion q = Quaternion.AngleAxis(angle-90, Vector3.forward);
+            sprite.transform.rotation = Quaternion.Slerp(sprite.transform.rotation, q, Time.deltaTime*5f); 
+        }
     }
 
 	void FixedUpdate() {
@@ -62,9 +57,13 @@ public class Scarab : MonoBehaviour
 			spawnBabies();
 		}
 	}
+
 	void spawnBabies() {
 		foreach ( GameObject spawn in spawns) {
-			GameObject baby = Instantiate(babyPrefab, spawn.transform.position, Quaternion.identity) as GameObject;
+            if(spawn)
+            {
+			    GameObject baby = Instantiate(babyPrefab, spawn.transform.position, Quaternion.identity) as GameObject;
+            }
 		} 
 	}
 
