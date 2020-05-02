@@ -8,14 +8,12 @@ public class SoundManager : MonoBehaviour
 
     void Start()
     {
-		Debug.Log("SoundSStart");
         startSound = GetComponent<AudioSource>();
         GameEventManager.GameStarts += OnGameStart;
     }
 
     void OnGameStart()
     {
-		Debug.Log("OnGameStart");
-		startSound.Play(0);
+		    startSound.Play(0);
     }
 }

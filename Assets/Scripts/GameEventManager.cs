@@ -3,8 +3,8 @@ using System.Collections;
 
 public class GameEventManager 
 {
-	public delegate void GameEventOver(bool hasWon);
-	public static event GameEventOver GameOver;
+	public delegate void GameOverEvent(bool hasWon);
+	public static event GameOverEvent GameOver;
     
 	public delegate void TookDamageEvent(float damage);
 	public static event TookDamageEvent TookDamage;
@@ -29,10 +29,8 @@ public class GameEventManager
 	}
 	public static void TriggerGameStart()
 	{
-			Debug.Log("bla null");
 		if (GameStarts != null) 
 		{
-			Debug.Log("Not null");
 			GameStarts();
 		}
 	}

@@ -73,9 +73,7 @@ public class GameManager : MonoBehaviour
 
 	IEnumerator StartGame()
 	{
-		Debug.Log("StartGame soon");
 		yield return new WaitForSeconds(0.5f);
-		Debug.Log("StartGame");
 		GameEventManager.TriggerGameStart();
 	}
 }

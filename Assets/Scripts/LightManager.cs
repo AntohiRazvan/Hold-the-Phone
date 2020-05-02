@@ -64,16 +64,18 @@ public class LightManager : MonoBehaviour
         fadeTime -= damage;
     }
 
-	void OnGameStart() {
+	void OnGameStart() 
+    {
 		state = GameState.Starting;
-		Debug.Log("lightGameStarting");
 	}
 
 	float yVelocity = 0.0f;
-	void FadeInLight() {
+	void FadeInLight() 
+    {
 		lightIntensity = Mathf.SmoothDamp( lightIntensity, 1f, ref yVelocity, 0.9f);
 		elapsedTime += Time.deltaTime;
-		if (Mathf.Approximately(lightIntensity, 1f)) {
+		if (Mathf.Approximately(lightIntensity, 1f)) 
+        {
 			state = GameState.Running;
 			elapsedTime = 0;
 		}
