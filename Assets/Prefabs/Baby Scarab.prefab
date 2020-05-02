@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dee3dc2b7d95b57fbdd50ec88b006ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 4
   damageFrequency: 0.25
   baby: 0
   hasBabies: 0
@@ -162,8 +162,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  sprite: {fileID: 0}
-  dest: {fileID: 0}
 --- !u!82 &78517271
 AudioSource:
   m_ObjectHideFlags: 0
