@@ -36,7 +36,7 @@ public class LightManager : MonoBehaviour
         else
         {
             lightIntensity = 0f;
-            GameEventManager.TriggerGameOver();
+            GameEventManager.TriggerGameOver(false);
         }      
     }
 

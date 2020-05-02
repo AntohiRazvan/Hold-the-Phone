@@ -6,18 +6,28 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public Text gameOverText;
+    public Text gameLostText;
+    public Text gameWonText;
 
     void Start()
     {
         GameEventManager.GameOver += GameOver;
     }
 
-    void GameOver()
+    void GameOver(bool hasWon)
     {
         //Time.timeScale = 0;
-        StartCoroutine(FadeInText(2.5f));
-        StartCoroutine(RestartGameAfter(5f));
+        if(hasWon)
+        {
+            StartCoroutine(FadeInText(gameWonText, 2.5f));
+            StartCoroutine(QuitGameAfter(5f));
+        }
+        else
+        {
+            StartCoroutine(FadeInText(gameLostText, 2.5f));
+            StartCoroutine(RestartGameAfter(5f));
+        }
+
     }
 
     IEnumerator RestartGameAfter(float seconds)
@@ -27,16 +37,21 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(scene.name);
     }
 
-    IEnumerator FadeInText(float seconds)
+    IEnumerator QuitGameAfter(float seconds)
     {
-        Color newColor = gameOverText.color;
+        yield return new WaitForSeconds(seconds);
+        Application.Quit();
+    }
+
+    IEnumerator FadeInText(Text text, float seconds)
+    {
+        Color newColor = text.color;
         newColor.a = 1f;
         float t = 0f;
 
         while( t < 1)
         {
-            gameOverText.color = Color.Lerp(gameOverText.color, newColor, t);
-            Debug.Log(gameOverText.color.a);
+            text.color = Color.Lerp(text.color, newColor, t);
             t += Time.deltaTime/seconds;
             yield return new WaitForSeconds(0.2f);
         }

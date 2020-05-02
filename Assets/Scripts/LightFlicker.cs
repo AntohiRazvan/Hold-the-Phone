@@ -38,7 +38,7 @@ public class LightFlicker : MonoBehaviour
 		}
  	}
 
-	void GameOver()
+	void GameOver(bool hasWon)
 	{
 		gameOver = true;
 	}

@@ -3,10 +3,11 @@ using System.Collections;
 
 public class GameEventManager 
 {
-	public delegate void GameEvent();
-    public delegate void TookDamageEvent(float damage);
-	public static event GameEvent GameOver;
-    public static event TookDamageEvent TookDamage;
+	public delegate void GameEventOver(bool hasWon);
+	public static event GameEventOver GameOver;
+    
+	public delegate void TookDamageEvent(float damage);
+	public static event TookDamageEvent TookDamage;
 
 
     public static void TriggerTookDamage(float damage)
@@ -17,11 +18,11 @@ public class GameEventManager
 		}
 	}
 
-	public static void TriggerGameOver()
+	public static void TriggerGameOver(bool hasWon)
 	{
 		if (GameOver != null)
 		{
-			GameOver();
+			GameOver(hasWon);
 		}
 	}
 }
