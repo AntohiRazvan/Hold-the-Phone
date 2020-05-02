@@ -7,6 +7,7 @@ public class LightManager : MonoBehaviour
     public static float lightIntensity;
     public float fadeTime;
     public float finalIntensity;
+    AudioSource music;
     
     float startingIntensity;
     float elapsedTime;
@@ -20,6 +21,7 @@ public class LightManager : MonoBehaviour
 
     void Start()
     {
+        music = GameObject.FindGameObjectsWithTag("MainCamera")[0].GetComponent<AudioSource>();
         startTime = System.DateTime.UtcNow;
         lightIntensity = 1f;
         startingIntensity = lightIntensity;
@@ -31,6 +33,7 @@ public class LightManager : MonoBehaviour
         if( elapsedTime <= fadeTime )
         {
             lightIntensity = Mathf.Lerp( startingIntensity, finalIntensity, ( elapsedTime / fadeTime ));
+            music.volume = Mathf.Lerp( 0.05f, 0.6f, ( elapsedTime / fadeTime ));
             elapsedTime += Time.deltaTime;
         }
         else
