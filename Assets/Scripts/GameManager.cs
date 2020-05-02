@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator FadeInText(Text text, float seconds)
     {
+		Debug.Log("Fade");
         Color newColor = text.color;
         newColor.a = 1f;
         float t = 0f;
